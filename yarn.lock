@@ -866,6 +866,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@csstools/normalize.css@^11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-11.0.1.tgz#31ffab0bff5f4f09551e059359bc1977ac83a974"
+  integrity sha512-kUlWZHQkll+lOlYdj7dg8XwziO9WALkfG2dAXLITZMB8gO99CXQBH5W/HleXC3YwWFWXVxe1UClMk/2qsB9oAw==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
