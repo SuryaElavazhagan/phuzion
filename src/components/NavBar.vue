@@ -15,7 +15,7 @@
       <template #brand>
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <img
-            src="http://ourmilfitness.com/wp-content/uploads/MIL-FITNESS-LOGO-FINAL_original-white.png"
+            src="../assets/logo.png"
             alt="Lightweight UI components for Vue.js based on Bulma"
           />
         </b-navbar-item>
@@ -85,6 +85,12 @@ export default {};
     
     .navbar-dropdown > .navbar-item {
       color: black;
+    }
+  }
+
+  .navbar-item {
+    /deep/ img {
+      max-height: 2.5rem;
     }
   }
 
