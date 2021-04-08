@@ -4,10 +4,13 @@ import {
   Carousel,
   Button
 } from 'buefy';
+import AOS from 'aos';
 import App from './App.vue';
 import './styles/index.scss';
 import './registerServiceWorker';
 import router from './router';
+
+AOS.init();
 
 Vue.use(Navbar);
 Vue.use(Carousel);
