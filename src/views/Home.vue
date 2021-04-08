@@ -32,7 +32,9 @@
             src="https://images.unsplash.com/photo-1579758682665-53a1a614eea6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
           />
         </div>
-        <div class="column">Gym Logo</div>
+        <div class="column">
+          <img src="../assets/logo.png" alt="">
+        </div>
       </div>
     </section>
     <section class="section is-relative pn-session-section">
