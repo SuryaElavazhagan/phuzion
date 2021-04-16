@@ -1,6 +1,6 @@
 <template>
   <div class="pn-overcast is-flex is-flex-direction-column is-justify-content-center">
-    <b-carousel :autoplay="false" :indicator="false" :arrow="true" :repeat="true" :arrow-hover="false" icon-pack="fa">
+    <b-carousel v-model="value" :autoplay="false" :indicator="false" :arrow="true" :repeat="true" :arrow-hover="false" icon-pack="fa">
       <b-carousel-item v-for="(image, i) in images" :key="i">
         <div class="pn-image p-3">
           <img :src="image" />
@@ -17,6 +17,16 @@ export default {
       type: Array,
       required: true,
     },
+    index: {
+      type: Number,
+      required: false,
+      default: 0
+    }
+  },
+  data() {
+    return {
+      value: this.index
+    };
   }
 };
 </script>
@@ -26,8 +36,8 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   z-index: 100;
   background: rgba($color: #000000, $alpha: 0.6);

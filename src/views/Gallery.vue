@@ -10,17 +10,17 @@
     </section>
     <section class="section">
       <div class="columns is-hidden-desktop">
-        <div class="column" v-for="image in images" :key="image">
+        <div class="column" v-for="(image, index) in images" :key="image">
           <overlayed-image
             class="pn-image-overlay"
             data-aos="fade-up"
             :src="image"
-            @click.native="toggleOvercast(true)"
+            @click.native="toggleOvercast(true, index)"
           />
         </div>
       </div>
     </section>
-    <gallery-overcast v-if="showOvercast" :images="images" @click.native.self="toggleOvercast(false)" />
+    <gallery-overcast v-if="showOvercast" :index="selectedIndex" :images="images" @click.native.self="toggleOvercast(false)" />
   </div>
 </template>
 
@@ -36,6 +36,7 @@ export default {
   data() {
     return {
       showOvercast: false,
+      selectedIndex: -1,
       images: [
         'https://images.unsplash.com/photo-1584466977773-e625c37cdd50?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
         'https://images.unsplash.com/photo-1584952449180-f8fddc0b03a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
@@ -52,8 +53,9 @@ export default {
     };
   },
   methods: {
-    toggleOvercast(value) {
+    toggleOvercast(value, index) {
       this.showOvercast = value;
+      this.selectedIndex = index;
     }
   }
 };
