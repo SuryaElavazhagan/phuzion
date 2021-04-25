@@ -1,13 +1,25 @@
 <template>
   <div class="pn-navbar-wrapper">
     <div class="pn-social-media-bar is-flex is-justify-content-flex-end">
-      <a class="pn-social-media-link" href="">
+      <a
+        class="pn-social-media-link mx-2"
+        href="https://www.facebook.com/phuzionperformance/"
+        target="_blank"
+      >
         <i class="fab fa-facebook"></i>
       </a>
-      <a class="pn-social-media-link" href="">
+      <a
+        class="pn-social-media-link mx-2"
+        href="https://twitter.com/PhuzionP"
+        target="_blank"
+      >
         <i class="fab fa-instagram"></i>
       </a>
-      <a class="pn-social-media-link" href="">
+      <a
+        class="pn-social-media-link mx-2"
+        href="https://www.instagram.com/phuzionperformance/?hl=en"
+        target="_blank"
+      >
         <i class="fab fa-youtube"></i>
       </a>
     </div>
@@ -40,8 +52,7 @@
           <b-navbar-item tag="router-link" :to="{ path: '/forms/client-waiver' }">
             Client Waiver
           </b-navbar-item>
-        </b-navbar-dropdown>
-        <b-navbar-item tag="router-link" :to="{ path: '/gallery' }">
+        <b-navbar-item tag="router-link" :to="{ path: '/contact-us' }">
           Contact us
         </b-navbar-item>
         <b-navbar-item tag="div">

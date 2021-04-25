@@ -198,30 +198,23 @@ export default {
       testimonials: [
         {
           testimony:
-            "I would highly recommend Amanda for anyone at any fitness level who would like to achieve their fitness goals . She’s really help me better understand how to move my body better and she has a wealth of knowledge when it comes to exercises that will be right for you.",
+            "My journey with Phuzion has been an interesting one but it has definitely been rewarding. I would also say, it has been a learning experience. From when I started with Phuzion, I was at a stage trying to figure out myself fitness wise. I was unsure of the goals that I should set and unsure of whether I would be able to meet these goals. But with Phuzion guiding me, supporting me, motivating me and even being patient with me, I’ve been able to achieve the majority of my goals and I’ve been able to set new ones. I’ve become stronger, more confident and I am just grateful for Phuzion’s support.",
           image: "http://ourmilfitness.com/wp-content/uploads/mari-holder.jpg",
-          name: "MARIO HOLDER",
+          name: "DOMINIQUE SADDLER",
           location: "BARBADOS",
         },
         {
           testimony:
-            "I would highly recommend Amanda for anyone at any fitness level who would like to achieve their fitness goals . She’s really help me better understand how to move my body better and she has a wealth of knowledge when it comes to exercises that will be right for you.",
+            "When I chose Phuzion Performance, first of all I’ve known Yvonne since I was a young boy, but the reason I chose Phuzion is the fact that Yvonne is a very good trainer. I’ve seen how she’s improved herself year after year, how she deals with me and the other clients in the gym. The communication that Yvonne has with me and the fact that we can have open discussions about my plans and how to improve. I am happy with the progress I’ve made with Phuzion, I can see the improvements and results year after year. I have never felt stronger in all my time as a cricketer as I do now, since I’ve joined Phuzion.",
           image: "http://ourmilfitness.com/wp-content/uploads/mari-holder.jpg",
-          name: "MARIO HOLDER",
+          name: "KEON HARDLING",
           location: "BARBADOS",
         },
         {
           testimony:
-            "I would highly recommend Amanda for anyone at any fitness level who would like to achieve their fitness goals . She’s really help me better understand how to move my body better and she has a wealth of knowledge when it comes to exercises that will be right for you.",
+            "I was simply looking for an environment that would fit my life and my schedule, an environment that would make me excited to be there, because on the fitness journey you have to be excited about it. Phuzion Performance has been that space for me. I like the fact that Yvonne pays so much attention to my goals and how she just understands my limits and knows how to gently push me beyond them and sometimes gently beyond them in a safe way.",
           image: "http://ourmilfitness.com/wp-content/uploads/mari-holder.jpg",
-          name: "MARIO HOLDER",
-          location: "BARBADOS",
-        },
-        {
-          testimony:
-            "I would highly recommend Amanda for anyone at any fitness level who would like to achieve their fitness goals . She’s really help me better understand how to move my body better and she has a wealth of knowledge when it comes to exercises that will be right for you.",
-          image: "http://ourmilfitness.com/wp-content/uploads/mari-holder.jpg",
-          name: "MARIO HOLDER",
+          name: "TALICIA LEWIS",
           location: "BARBADOS",
         },
       ],

@@ -14,23 +14,32 @@
       </div>
     </section>
     <section class="section">
-      <h1 class="title has-text-centered">GET TO KNOW US</h1>
-      <p class="has-text-centered is-size-5 my-5">
-        Do you want individual attention while training or prefer to train with
-        family and/or friends? Are you intimidated by gyms and want to train at
-        home or on the beach?
-      </p>
-      <p class="has-text-centered is-size-5 my-5">
-        Whatever your health and fitness goals are, Movement is Life can help
-        you achieve them with our fun workout sessions designed to improve
-        fitness, confidence, health and strength.
-      </p>
-      <p class="has-text-centered is-size-5 my-5 has-text-weight-semibold">
-        Join us and start your health and fitness journey today. There is Life
-        when we move!!
-      </p>
-      <div class="is-flex is-justify-content-center">
-        <b-button type="is-success" class="p-4"> Get started now </b-button>
+      <div class="columns">
+        <div class="column">
+          <h1 class="title has-text-centered">GET TO KNOW US</h1>
+          <p class="has-text-centered is-size-5 my-5">
+            Do you want individual attention while training or prefer to train
+            with family and/or friends? Are you intimidated by gyms and want to
+            train at home or on the beach?
+          </p>
+          <p class="has-text-centered is-size-5 my-5">
+            Whatever your health and fitness goals are, Movement is Life can
+            help you achieve them with our fun workout sessions designed to
+            improve fitness, confidence, health and strength.
+          </p>
+          <p class="has-text-centered is-size-5 my-5 has-text-weight-semibold">
+            Join us and start your health and fitness journey today. There is
+            Life when we move!!
+          </p>
+          <div class="is-flex is-justify-content-center">
+            <b-button type="is-success" class="p-4"> Get started now </b-button>
+          </div>
+        </div>
+        <div class="column desktop">
+          <img
+            src="https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=643&q=80"
+          />
+        </div>
       </div>
     </section>
     <img
