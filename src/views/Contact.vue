@@ -45,7 +45,7 @@
           <div class="card">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15543.267206933848!2d-59.5851407!3d13.1107893!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x355d2531850008e0!2sPhuzion%20Performance!5e0!3m2!1sen!2sin!4v1619368374698!5m2!1sen!2sin"
-              width="600"
+              width="100%"
               height="450"
               style="border: 0"
               allowfullscreen=""
